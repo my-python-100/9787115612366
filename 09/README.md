@@ -46,3 +46,14 @@ count = count + 1
 * Python 3 引入了 nonlocal 关键字。它的作用 是把变量标记为自由变量
 
 **变量查找逻辑**
+
+
+## 9.9　标准库中的装饰器
+
+**9.9.1　使用 functools.cache 做备忘**
+
+* functools.cache 装饰器实现了备忘（memoization
+
+> 叠放装饰器
+
+* @是一种语法糖，其作用是把装饰器函数应用到下方的函数上
